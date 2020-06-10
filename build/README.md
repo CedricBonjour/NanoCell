@@ -1,6 +1,6 @@
-#Build instructions
+# Build instructions
 
-##Pre-requirements
+## Pre-requirements
 
 
 Ability to run bash scripts
