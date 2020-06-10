@@ -1,0 +1,65 @@
+{
+  "name": "NanoCell",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description":"CSV editor fast, lightweight, cross platform (Windows, OSX, Linux, ChromeOS), works 100% offline, has customizable themes, is keyboard shortcut driven, is perfect for handling super large files and has all the functionalities you'd expect.",
+  "permissions": [
+    "storage",
+    "clipboardRead",
+    "clipboardWrite",
+    {"fileSystem": ["write","retainEntries","directory"]}
+    ],
+  "app": {"background": {"scripts": ["background.js"]}},
+  "icons": {
+    "16" : "logo/png/nanocell_16.png",
+    "32" : "logo/png/nanocell_32.png",
+    "48" : "logo/png/nanocell_48.png",
+    "64" : "logo/png/nanocell_64.png",
+    "72" : "logo/png/nanocell_72.png",
+    "80" : "logo/png/nanocell_80.png",
+    "96" : "logo/png/nanocell_96.png",
+    "128" : "logo/png/nanocell_128.png",
+    "256" : "logo/png/nanocell_256.png",
+    "512" : "logo/png/nanocell_512.png"
+  },
+  "file_handlers": {"text": {
+    "types": ["text/csv", "text/tsv"],
+    "extensions": ["csv", "tsv"]
+  }}
+}
+
+
+
+
+// ======= NAMES =======
+
+// SOFT, VECTOR, SHEET, CELL, DATA, MATRIX, MICRO , NANO, PICO , TABLE , CSV, VIEW, FIELD, RANGE, SPAN  --ER?, SCOPE, TARGET, CHECK, VALUE,  picocell,  nanosheet,  datafit,  dataCanon,  DataRoll
+
+
+
+// ======= TODO FEATURES =======
+
+// track save 
+// Check saved sheets on quit app.
+// auto save
+// Date format confirmation 
+// Rework dialogue UI.
+// Update selection instead of refresh all 
+// context menu : sort 
+// Quick rename file
+// date increment 
+// export to : xlsx, html, md ... 
+// new sheet naming increment rework
+
+
+// ======= BUGS =======
+
+// full screen f11 not working on windows
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+#calendar{
+display: none;
+background-color:transparent;
+padding:1em;
+}
+#calendar ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+.calOpt{
+background-color:transparent;
+padding: 0;
+}
+
+.focus{ color: #555;}
+.focus:focus{color:var(--fh-txt);}
+.dateSelect{background-color: var(--slct-bg);color: var(--num-txt);}
+ul .dateSelect{border-radius:1em;}
+#calendar li{padding:0.2em 1em;}
+#yrs{position:absolute;top:0;}
+#yrs::-webkit-scrollbar {display: none;}
+#calendar table{display: inline-block;}
+#daysTable{margin:1em}
+
+
+
+/*============================================================*/
+
+#dateFormat{display:none;}
+
+
+#dateFormat span{
+display:inline-block;
+width:10em;
+text-align: right;
+margin-right: 1em;
+}
+footer [bool]:after{right:-19em;}
+#dateFormatHelp{margin:2em;}
+#dateFormatHelp div span:nth-child(2n){text-align:left}
+
